@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;600&family=Josefin+Sans:wght@200;500;700&display=swap');
+
+/*
+font-family: 'Anek Devanagari', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+body{
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.placeholder1{
+    height: 100vh
+}
+
+.statement{
+    text-align: center;
+    width: 100vw;
+}
+.statement h2{
+    margin-top: 50px;
+}
+.statement p{
+    width: 60vw;
+    padding-top: 10px;
+    border-top: 2px solid black;
+    margin-inline: 20vw;
+}
+
+#placeholder-solid{
+    height: 20vh;
+    width: 100vw;
+}
+
+.promise{
+    padding-top: 20px;
+    text-align: center;
+    margin-inline: 10vw;
+}
+.promise h2{
+    font-weight: bold;
+}
+.promise p{
+    font-size: 1.25rem;
+}
+
+.process{
+    margin-inline: 10vw;
+}
+.process h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about{
+    margin-top: 40px;
+    margin-inline: 10vw;
+}
+.about p{
+    font-size: 1.25rem;
+}

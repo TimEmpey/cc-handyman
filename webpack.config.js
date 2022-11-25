@@ -4,27 +4,27 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
-  output: {
+    entry: './src/index.js',
+    output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
-  },
-  devtool: 'eval-source-map',
-  devServer: {               
+    },
+    devtool: 'eval-source-map',
+    devServer: {               
     contentBase: './dist'    
-  },
-  plugins: [
+    },
+    plugins: [
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'TEMPLATE',
-      template: './src/index.html',
-      inject: 'body'
+        title: 'cc-handyman',
+        template: './src/index.html',
+        inject: 'body'
     })
-  ],
-  module: {
+    ],
+    module: {
     rules: [
-      {
+        {
         test: /\.(gif|png|avif|jpe?g)$/,
         use: [
           {

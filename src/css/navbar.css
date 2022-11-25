@@ -1,0 +1,23 @@
+.navbar {
+    font-family: 'Be Vietnam Pro', serif;
+    overflow: hidden;
+    background-color: beige;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    height: 14vh;
+}
+.navbar a {
+    margin-right: 10px;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transform: 0.75s
+}
+.navbar a:hover {
+    background: #B9AED6;
+    color: black;
+    transform: scale(1.2);
+    /* border-radius: 50px; */
+}

@@ -1,4 +1,4 @@
-# _Template_
+# _cc-handyman_
 
 #### By _**Tim Empey**_
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-_Template repo to streamline the file setup process for JS webpages with all files set up and ready for use_
+_cc-handyman repo to streamline the file setup process for JS webpages with all files set up and ready for use_
 
 ## Setup/Installation Requirements
 
