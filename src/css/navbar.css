@@ -1,19 +1,21 @@
 .navbar {
     font-family: 'Be Vietnam Pro', serif;
-    overflow: hidden;
-    background-color: beige;
+    /* overflow: hidden; */
+    background-color: #ffffff;
     top: 0;
     width: 100%;
     z-index: 3;
-    height: 14vh;
+    height: 19vh;
+    padding-bottom: 11%;
+    position: fixed;
 }
 .navbar a {
     margin-right: 10px;
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5rem;
-    transform: 0.75s
+    font-size: 1.75rem;
+    transform: 0.75s;
 }
 .navbar a:hover {
     background: #B9AED6;

@@ -8,6 +8,14 @@ body{
     font-family: 'Anek Devanagari', sans-serif;
 }
 
+#logo{
+    width: 150px;
+}
+
+#quote{
+    background-color: orange;
+}
+
 .placeholder1{
     height: 100vh
 }
