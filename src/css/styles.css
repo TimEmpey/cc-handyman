@@ -8,39 +8,31 @@ body{
     font-family: 'Anek Devanagari', sans-serif;
 }
 
-#logo{
-    width: 150px;
-}
-
-#quote{
-    background-color: orange;
-}
-
-.placeholder1{
-    height: 100vh
-}
-
 .statement{
     text-align: center;
     width: 100vw;
 }
 .statement h2{
     margin-top: 50px;
+    padding: 20px;
 }
 .statement p{
+    font-size: 2rem;
+    font-weight: bold;
     width: 60vw;
-    padding-top: 10px;
+    padding: 20px;
     border-top: 2px solid black;
     margin-inline: 20vw;
 }
 
-#placeholder-solid{
-    height: 20vh;
+#banner{
     width: 100vw;
+    height: auto;
 }
 
 .promise{
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     margin-inline: 10vw;
 }
@@ -48,6 +40,7 @@ body{
     font-weight: bold;
 }
 .promise p{
+    text-align: left;
     font-size: 1.25rem;
 }
 

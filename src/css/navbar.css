@@ -1,25 +1,52 @@
-.navbar {
+.nav-items {
     font-family: 'Be Vietnam Pro', serif;
     /* overflow: hidden; */
-    background-color: #ffffff;
+    background-color: #e0e0e0;
     top: 0;
     width: 100%;
     z-index: 3;
-    height: 19vh;
-    padding-bottom: 11%;
-    position: fixed;
+    height: 20vh;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
 }
-.navbar a {
-    margin-right: 10px;
-    color: #f2f2f2;
-    padding: 14px 16px;
+#logo{
+    width: 150px;
+}
+.nav-items a{
     text-decoration: none;
+}
+.option {
+    font-family: 'Anek Devanagari', sans-serif;
+    color: black;
+    padding-inline: 14px 16px;
     font-size: 1.75rem;
     transform: 0.75s;
 }
-.navbar a:hover {
-    background: #B9AED6;
-    color: black;
+.option:hover {
     transform: scale(1.2);
+    font-weight: bold;
+    color: rgb(80, 80, 80);
     /* border-radius: 50px; */
+}
+.nav-items button{
+    display: flex;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    padding-inline: 14px 16px;
+    text-decoration: none;
+    font-size: 1.75rem;
+    /* border-radius: 10px; */
+    /* box-shadow: 3px 3px; */
+    margin-inline: 0px;
+    transform: 0.75s;
+}
+.nav-items button:hover{
+    background-color: orange;
+    padding-top: 10px;
+}
+.nav-items button a{
+    font-family: 'Anek Devanagari', sans-serif;
 }
