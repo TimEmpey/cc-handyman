@@ -17,26 +17,29 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-        title: 'cc-handyman',
+        filename: 'index.html',
         template: './src/index.html',
-        inject: 'body'
-    })
+    }),
+    new HtmlWebpackPlugin({
+        filename: 'services',
+        template: './src/html/services.html'
+    }),
     ],
     module: {
     rules: [
         {
         test: /\.(gif|png|avif|jpe?g)$/,
         use: [
-          {
+        {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/images/'
+                name: '[name].[ext]',
+                outputPath: 'assets/images/'
             }
-          }
+        }
         ]
-      },
-      {
+    },
+    {
         test:/\.html$/,
         use: [
           'html-loader'

@@ -9,6 +9,8 @@ body{
 }
 
 .statement{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     text-align: center;
     width: 100vw;
 }
@@ -31,8 +33,8 @@ body{
 }
 
 .promise{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
     text-align: center;
     margin-inline: 10vw;
 }
@@ -66,6 +68,7 @@ body{
 .step-num{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .last-step{
     margin-bottom: 25vh;
@@ -83,9 +86,37 @@ body{
 }
 
 .about{
-    margin-top: 40px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     margin-inline: 10vw;
+}
+.about h2{
+    border-bottom: 2px solid black;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
 }
 .about p{
     font-size: 1.25rem;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 40vh;
+    text-align: center;
+}
+#end{
+    padding-top: 8vh;
+    font-size: 1.2rem;
+}
+footer button{
+    margin-top: 6vh;
+    font-weight: bold;
+    background-color: orange;
+    width: 12vw;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    font-size: 1.8rem;
+    height: 10vh;
+    width: 30vw;
 }

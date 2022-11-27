@@ -15,5 +15,6 @@
     max-height: none;
     object-fit: cover;
     transition: none;
+    opacity: .75;
 }
 

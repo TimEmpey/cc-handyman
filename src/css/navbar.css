@@ -15,6 +15,7 @@
 }
 .nav-items a{
     text-decoration: none;
+    font-family: 'Anek Devanagari', sans-serif;
 }
 .option {
     font-family: 'Anek Devanagari', sans-serif;
@@ -31,22 +32,14 @@
 }
 .nav-items button{
     display: flex;
-    border: none;
-    background-color: transparent;
-    color: black;
-    font-weight: bold;
-    padding-inline: 14px 16px;
-    text-decoration: none;
+    background-color: orange;
+    width: 16vw;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
     font-size: 1.75rem;
     /* border-radius: 10px; */
     /* box-shadow: 3px 3px; */
     margin-inline: 0px;
     transform: 0.75s;
-}
-.nav-items button:hover{
-    background-color: orange;
-    padding-top: 10px;
-}
-.nav-items button a{
-    font-family: 'Anek Devanagari', sans-serif;
 }
