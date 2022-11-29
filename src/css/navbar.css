@@ -33,7 +33,7 @@
     background-color: orange;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 2px 2px black;
+    box-shadow: 1.5px 1.5px #838383;
     font-size: 1.75rem;
     /* border-radius: 10px; */
     /* box-shadow: 3px 3px; */
@@ -51,6 +51,9 @@
         align-items: center;
     }
     .option {
-        padding-inline: 14px 5px;
+        padding-inline: 6px;
+    }
+    .nav-items button{
+        margin-inline: 20px;
     }
 }

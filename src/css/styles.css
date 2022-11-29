@@ -55,6 +55,9 @@ body{
     margin-top: 60px;
     text-align: center;
 }
+.icon{
+    margin-left: 3vw;
+}
 #list{
     list-style: none;
 }
@@ -133,7 +136,30 @@ footer button{
     .promise p{
         font-size: 2rem;
     }
+    .icon{
+        margin-left: 0vw;
+    }
     .step-num{
         font-size: 2.5rem;
+    }
+    .row{
+        width: 90%;
+    }
+    #list button{
+        scale: 1.75;
+    }
+    .about p{
+        font-size: 2rem;
+    }
+    footer{
+        height: 25vh;
+    }
+    #end{
+        font-size: 2rem;
+    }
+    footer button{
+        margin-top: 2vh;
+        height: 7vh;
+        width: 40vw;
     }
 }
