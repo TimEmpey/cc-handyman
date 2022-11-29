@@ -1,0 +1,44 @@
+#services-title{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.container{
+    text-align: center;
+    width: 80vw;
+}
+
+.job-type{
+    text-align: center;
+}
+
+.description{
+    text-align: left;
+}
+
+.we-do-title, .we-dont-title{
+    text-align: left;
+}
+.we-do, .we-dont li{
+    text-align: left;
+}
+
+@media only screen and (orientation:portrait){
+    /* .row{
+        max-width: none;
+        min-width: none;
+        width: 100vw;
+    } */
+    .col-4{
+        max-width: none;
+        min-width: none;
+        width: 100vw;
+    }
+    /* .service-section{
+        margin-inline: 2vw;
+    } */
+    .row li{
+        width: 70vw;
+    }
+}
