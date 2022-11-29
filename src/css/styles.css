@@ -112,16 +112,17 @@ footer{
 #end{
     padding-top: 8vh;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 footer button{
     margin-top: 6vh;
-    font-weight: bold;
+    color: white;
     background-color: orange;
     width: 12vw;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px black;
-    font-size: 1.8rem;
+    border-radius: 1px;
+    box-shadow: .5px .5px black;
+    font-size: 2rem;
     height: 10vh;
     width: 30vw;
 }

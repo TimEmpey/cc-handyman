@@ -32,8 +32,8 @@
     display: flex;
     background-color: orange;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 1.5px 1.5px #838383;
+    border-radius: 2px;
+    box-shadow: .5px .5px #838383;
     font-size: 1.75rem;
     /* border-radius: 10px; */
     /* box-shadow: 3px 3px; */
