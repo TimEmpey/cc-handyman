@@ -1,12 +1,10 @@
 .nav-items {
     font-family: 'Be Vietnam Pro', serif;
-    /* overflow: hidden; */
     background-color: #e0e0e0;
     top: 0;
     width: 100%;
     z-index: 3;
     height: 20vh;
-    /* position: fixed; */
     display: flex;
     align-items: center;
 }
@@ -20,7 +18,7 @@
 .option {
     font-family: 'Anek Devanagari', sans-serif;
     color: black;
-    padding-inline: 14px 16px;
+    padding-inline: 14px 2vw;
     font-size: 1.75rem;
     transform: 0.75s;
 }
@@ -33,7 +31,6 @@
 .nav-items button{
     display: flex;
     background-color: orange;
-    width: 16vw;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px black;
@@ -42,4 +39,18 @@
     /* box-shadow: 3px 3px; */
     margin-inline: 0px;
     transform: 0.75s;
+}
+
+@media only screen and (orientation: portrait) {
+    .nav-items{
+        top: 0;
+        width: 100%;
+        z-index: 3;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+    .option {
+        padding-inline: 14px 5px;
+    }
 }
