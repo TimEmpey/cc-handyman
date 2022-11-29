@@ -9,6 +9,10 @@
     width: 80vw;
 }
 
+.icon{
+    margin-right: 3vw;
+}
+
 .job-type{
     text-align: center;
 }
@@ -24,20 +28,25 @@
     text-align: left;
 }
 
+hr{
+    border: 1px solid #3C92E5;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
 @media only screen and (orientation:portrait){
-    /* .row{
-        max-width: none;
-        min-width: none;
-        width: 100vw;
-    } */
     .col-4{
         max-width: none;
         min-width: none;
         width: 100vw;
     }
-    /* .service-section{
-        margin-inline: 2vw;
-    } */
+    .service-section{
+        margin-bottom: 10vh;
+    }
+    .icon{
+        height: 150px;
+        width: 150px;
+    }
     .row li{
         width: 70vw;
     }
