@@ -1,0 +1,49 @@
+.wrapper{
+    margin-inline: 5vw;
+}
+
+#review-image{
+    width: 40vw;
+}
+
+.review-intro, .review-end{
+    text-align: center;
+}
+.review-intro h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 7vh;
+}
+.review-intro p{
+    margin-bottom: 7vh;
+}
+.review-end{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.bold{
+    font-weight: bold;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+.review-button{
+    /* color: white; */
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 20px;
+    padding-inline: 50px;
+    border-radius: 2px;
+    box-shadow: .5px .5px black;
+    scale: 1;
+}
+
+.secondary-hr{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border: 1px solid #ffffff;
+}

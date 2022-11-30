@@ -24,6 +24,10 @@ module.exports = {
         filename: 'services',
         template: './src/html/services.html'
     }),
+    new HtmlWebpackPlugin({
+        filename: 'review',
+        template: './src/html/review.html'
+    }),
     ],
     module: {
     rules: [

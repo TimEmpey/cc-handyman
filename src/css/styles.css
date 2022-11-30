@@ -85,8 +85,8 @@ body{
     margin-top: 5vh;
     background-color: orange;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px black;
+    border-radius: 2px;
+    box-shadow: .5px .5px black;
     scale: 1.3;
 }
 
