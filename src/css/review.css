@@ -47,3 +47,10 @@
     margin-bottom: 4vh;
     border: 1px solid #ffffff;
 }
+
+@media only screen and (orientation: portrait) {
+    #review-image{
+        height: 40vh;
+        object-fit: cover;
+    }
+}
