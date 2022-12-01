@@ -21,11 +21,11 @@ module.exports = {
         template: './src/index.html',
     }),
     new HtmlWebpackPlugin({
-        filename: 'services',
+        filename: 'services/index.html',
         template: './src/html/services.html'
     }),
     new HtmlWebpackPlugin({
-        filename: 'review',
+        filename: 'review/index.html',
         template: './src/html/review.html'
     }),
     ],
