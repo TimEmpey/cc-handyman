@@ -35,10 +35,9 @@
     border-radius: 2px;
     box-shadow: .5px .5px #838383;
     font-size: 1.75rem;
-    color: white;
     text-decoration: none;
-    /* border-radius: 10px; */
-    /* box-shadow: 3px 3px; */
+    border-radius: 15px;
+    border: 1px solid black;
     margin-inline: 0px;
     transform: 0.75s;
 }
