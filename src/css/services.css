@@ -35,12 +35,11 @@ hr{
 }
 
 .service-quote{
-    color: white;
     background-color: orange;
     padding: 10px;
     padding-inline: 3vw;
-    border-radius: 2px;
-    box-shadow: .5px .5px black;
+    border-radius: 15px;
+    border: 1px solid black;
     scale: 1.3;
 }
 
