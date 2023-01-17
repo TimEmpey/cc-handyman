@@ -1,3 +1,9 @@
+.alert{
+    background-color: yellow;
+    z-index: 4;
+    margin-bottom: 0vh;
+}
+
 .nav-items {
     font-family: 'Be Vietnam Pro', serif;
     background-color: #e0e0e0;
