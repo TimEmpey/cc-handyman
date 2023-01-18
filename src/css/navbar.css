@@ -76,4 +76,20 @@
     .nav-items button{
         margin-inline: 20px;
     }
+
+    .alert{
+        width: 70vw;
+        height: 50vh;
+        position: fixed;
+        margin-inline: 15vw;
+        margin-top: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alert h2{
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+    }
 }
