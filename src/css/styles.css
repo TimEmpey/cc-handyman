@@ -8,6 +8,10 @@ body{
     font-family: 'Anek Devanagari', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .statement{
     margin-top: 10vh;
     margin-bottom: 10vh;
