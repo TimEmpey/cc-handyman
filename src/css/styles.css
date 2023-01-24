@@ -137,6 +137,10 @@ footer button{
 }
 
 @media only screen and (orientation: portrait) {
+    a{
+        text-decoration: none;
+        color: black;
+    }
     h2{
         font-size: 2.5rem;
     }
