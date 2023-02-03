@@ -42,9 +42,9 @@ body{
 .landing-page button{
     position: absolute;
     z-index: 1;
-    align-self: end;
-    margin-bottom: 10vh;
     text-decoration: none;
+    margin-top: 82vh;
+    margin-left: -10vw;
     font-size: 30px;
     color: white;
     border: none;
@@ -120,6 +120,7 @@ body{
         margin-bottom: 10vh;
         font-size: 50px;
         width: 40vw;
+        margin-left: -20vw;
     }
 
 
