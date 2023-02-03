@@ -36,7 +36,6 @@ body{
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     width: 40vw;
-    margin-top: 10vh;
     margin-bottom: 25vh;
 }
 
@@ -53,10 +52,6 @@ body{
     width: 20vw;
     font-family: 'DM Sans', sans-serif;
     background-color: #FA823F;
-}
-
-.test{
-    height: 100%;
 }
 
 /*----------------------------------------- Process  ---------------------------------------------*/
@@ -91,6 +86,7 @@ body{
 .process .list h2{
     font-weight: bold;
     font-family: 'Libre Franklin', sans-serif;
+    margin-top: 3vh;
 }
 
 .process .list p{
@@ -109,4 +105,50 @@ body{
     padding: 20px;
     width: 20vw;
     margin-inline: 40vw;
+}
+
+@media only screen and (orientation: portrait) {
+    /*-------------------------------------- Landing Page  ------------------------------------------*/
+    .bg-image{
+        object-fit: cover;
+    }
+    .landing-page h1{
+        font-size: 90px;
+        width: 90vw;
+    }
+    .landing-page button{
+        margin-bottom: 10vh;
+        font-size: 50px;
+        width: 40vw;
+    }
+
+
+    /*----------------------------------------- Process  ---------------------------------------------*/
+
+    .process h1{
+        font-size: 90px;
+    }
+
+    .process .list{
+        height: 55vh;
+        text-align: center;
+    }
+
+    .process .list h2{
+        font-size: 45px;
+    }
+
+    .process .list p{
+        padding-inline: 5vw;
+    }
+
+    .process .list .finale{
+        padding-inline: 25vw;
+    }
+
+    .process button{
+        font-size: 50px;
+        width: 40vw;
+        margin-inline: 30vw;
+    }
 }

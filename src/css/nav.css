@@ -25,3 +25,16 @@ nav{
 .nav-item:hover{
     text-decoration: none;
 }
+
+@media only screen and (orientation: portrait) {
+    nav{
+        height: 20vh;
+    }
+    .nav-logo{
+        position: absolute;
+        width: 40%;
+        z-index: 1;
+        margin-top: 15vh;
+        margin-inline: 30vw;
+    }
+}
