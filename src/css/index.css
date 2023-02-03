@@ -111,6 +111,7 @@ body{
     /*-------------------------------------- Landing Page  ------------------------------------------*/
     .bg-image{
         object-fit: cover;
+        object-position: -400px;
     }
     .landing-page h1{
         font-size: 90px;
