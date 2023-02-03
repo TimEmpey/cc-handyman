@@ -19,15 +19,7 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: 'index.html',
         template: './src/index.html',
-    }),
-    new HtmlWebpackPlugin({
-        filename: 'services/index.html',
-        template: './src/html/services.html'
-    }),
-    new HtmlWebpackPlugin({
-        filename: 'review/index.html',
-        template: './src/html/review.html'
-    }),
+    })
     ],
     module: {
     rules: [
@@ -38,7 +30,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
                 name: '[name].[ext]',
-                outputPath: '/images/'
+                outputPath: './src/images/'
             }
         }
         ]

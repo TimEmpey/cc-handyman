@@ -1,0 +1,27 @@
+nav{
+    height: 30vh;
+    width: 100vw;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    position: absolute;
+    width: 16%;
+    z-index: 1;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-inline: 3vw;
+    font-family: 'DM Sans', sans-serif;
+}
+.nav-item:hover{
+    text-decoration: none;
+}
