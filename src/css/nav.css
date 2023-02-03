@@ -32,9 +32,9 @@ nav{
     }
     .nav-logo{
         position: absolute;
-        width: 40%;
+        width: 70%;
         z-index: 1;
         margin-top: 15vh;
-        margin-inline: 30vw;
+        margin-inline: 15vw;
     }
 }
