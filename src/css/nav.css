@@ -25,6 +25,42 @@ nav{
 .nav-item:hover{
     text-decoration: none;
 }
+.nav a:hover{
+    color: #ffffff;
+}
+
+.nav p {
+    cursor: pointer;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.nav p:focus,
+.nav p:hover {
+    color: #ffffff;
+}
+
+.nav p:focus:after,
+.nav p:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.nav p:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: #FA823F;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
 
 @media only screen and (orientation: portrait) {
     nav{
