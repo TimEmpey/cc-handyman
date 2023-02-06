@@ -3,10 +3,6 @@
     color: white;
 }
 
-.review-buffer{
-    height: 30vh;
-}
-
 #services-title{
     text-align: center;
     margin-top: 10vh;
@@ -38,9 +34,6 @@
 
 
 @media only screen and (orientation:portrait){
-    .review-buffer{
-        height: 20vh;
-    }
     .row{
         margin-bottom: 0vh;
     }

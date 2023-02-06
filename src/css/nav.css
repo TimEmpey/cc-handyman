@@ -67,6 +67,10 @@ nav{
     transition-property: width, left;
 }
 
+.nav-buffer{
+    height: 30vh;
+}
+
 /*-------------------------------  Secondary ------------------------------------*/
 
 .nav-item-secondary{
@@ -116,11 +120,21 @@ nav{
     transition-property: width, left;
 }
 
+.nav-buffer-secondary{
+    height: 25vh;
+}
+
 /*--------------------------------------------------------------------------------*/
 
 @media only screen and (orientation: portrait) {
     nav{
         height: 20vh;
+    }
+    .nav-buffer{
+        height: 20vh;
+    }
+    .nav-buffer-secondary{
+        height: 18vh;
     }
     .nav-logo{
         position: absolute;
