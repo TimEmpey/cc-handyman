@@ -1,0 +1,76 @@
+.service-body{
+    background-color: #FA823F;
+    color: white;
+}
+
+.review-buffer{
+    height: 30vh;
+}
+
+#services-title{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.container{
+    text-align: center;
+    width: 100vw;
+}
+
+.job-type{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.we-do-title{
+    text-align: left;
+}
+.we-do li{
+    text-align: left;
+}
+
+.row{
+    margin-bottom: 5vh;
+}
+
+
+@media only screen and (orientation:portrait){
+    .review-buffer{
+        height: 20vh;
+    }
+    .row{
+        margin-bottom: 0vh;
+    }
+    .col-4{
+        max-width: none;
+        min-width: none;
+        width: 100vw;
+    }
+    .col-12{
+        max-width: none;
+        min-width: none;
+        width: 90vw;
+    }
+    .service-section{
+        margin-bottom: 10vh;
+    }
+    .icon{
+        height: 150px;
+        width: 150px;
+    }
+    .row li{
+        width: 70vw;
+    }
+    .job-type{
+        font-size: 60px;
+    }
+    .we-do-title{
+        font-size: 45px;
+    }
+    .we-do li{
+        font-size: 45px;
+    }
+}
