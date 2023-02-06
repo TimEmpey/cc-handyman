@@ -6,6 +6,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 body{
     overflow-x: hidden;
+    /* background-color: #FA823F; */
 }
 
 /*-------------------------------------- Landing Page  ------------------------------------------*/
@@ -90,7 +91,7 @@ body{
 }
 
 .process .list p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: thin;
     padding-inline: 5vw;
 }
