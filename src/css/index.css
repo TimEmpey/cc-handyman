@@ -108,6 +108,11 @@ body{
     margin-inline: 40vw;
 }
 
+.home-footer{
+    height: 10vh;
+    background-color: #FA823F;
+}
+
 @media only screen and (orientation: portrait) {
     /*-------------------------------------- Landing Page  ------------------------------------------*/
     .bg-image{

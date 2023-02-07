@@ -138,10 +138,15 @@ nav{
     }
     .nav-logo{
         position: absolute;
-        width: 70%;
+        height: 30%;
+        width: auto;
         z-index: 1;
         margin-top: 15vh;
-        margin-inline: 15vw;
+    }
+    .logo-wrapper{
+        display: flex;
+        
+        justify-content: center;
     }
     .nav-logo-secondary{
         display: none;

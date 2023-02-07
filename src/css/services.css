@@ -32,10 +32,16 @@
     margin-bottom: 5vh;
 }
 
+footer{
+    height: 10vh;
+}
+
 
 @media only screen and (orientation:portrait){
     .row{
         margin-bottom: 0vh;
+        display: flex;
+        justify-content: center;
     }
     .col-4{
         max-width: none;

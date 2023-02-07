@@ -13,7 +13,6 @@
 
 .review-box{
     width: 20vw;
-    height: 45vh;
     border: 2px solid #FA823F;
     padding: 30px;
     margin-inline: 1vw;
@@ -38,6 +37,7 @@
     width: 20vw;
     font-family: 'DM Sans', sans-serif;
     background-color: #FA823F;
+    margin-top: 5vh;
 }
 
 @media only screen and (orientation:portrait){
@@ -49,7 +49,6 @@
     }
     .review-box{
         width: 40vw;
-        height: 25vh;
         margin-inline: 2vw;
         margin-bottom: 2vh;
     }
